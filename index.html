@@ -62,7 +62,7 @@
   </nav>
   <!-- Navbar End's -->
 
-  <div class="container-fluid px-3">
+  <div class="container-fluid px-md-3">
     <div class="container">
 
       <div class="search-form">
@@ -76,8 +76,23 @@
 
             <!--  -->
             <div class="overflow-hidden">
-              <button class="download-btn" type="button">
+              <button class="download-btn d-none d-sm-none d-md-block" type="button">
                 <span class="btn__text"><i class="fa-solid fa-download me-1"></i> Download</span>
+
+
+                <svg class="btn__progress" viewBox="0 0 48 48" width="48px" height="48px">
+                  <circle class="btn__progress-track" r="20" cx="24" cy="24" fill="none" stroke="#c7cad1"
+                    stroke-width="8" />
+                  <circle class="btn__progress-fill" r="20" cx="24" cy="24" fill="none" stroke="#000000"
+                    stroke-width="8" transform="rotate(-90,24,24)" stroke-dasharray="125.66 125.66"
+                    stroke-dashoffset="125.66" />
+                  <polyline class="btn__progress-check" points="12,24 20,32 36,16" fill="none" stroke="#fff"
+                    stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="34 34"
+                    stroke-dashoffset="34" />
+                </svg>
+              </button>
+              <button class="download-btn download-phone-btn d-sm-block d-md-none" type="button">
+                <span class="btn__text"><i class="fa-solid fa-download me-1"></i></span>
 
 
                 <svg class="btn__progress" viewBox="0 0 48 48" width="48px" height="48px">
@@ -117,7 +132,7 @@
 
       <!-- Faq Sec -->
       <section id="faq_sec" class="hk-landing-sec pb-25 mt-5">
-          <div class="container">
+          <div class="container-fluid">
               <h2 class="mb-10">FAQ</h2>
               <div class="mt-50">
                   <div class="row">
@@ -161,7 +176,7 @@
 
   <div class="container-fluid mt-5">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="card border-0">
 
           <div class="card-body ">
@@ -196,7 +211,7 @@
         </div>
         <!-- card end -->
       </div>
-      <div class="col-md-3">
+      <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="card border-0">
 
 
@@ -242,7 +257,7 @@
         </div>
         <!-- card end -->
       </div>
-      <div class="col-md-3">
+      <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="card border-0">
 
 
@@ -295,7 +310,7 @@
         </div>
         <!-- card end -->
       </div>
-      <div class="col-md-3">
+      <div class="col-sm-12 col-md-6 col-lg-3">
         <div class="card border-0">
 
 

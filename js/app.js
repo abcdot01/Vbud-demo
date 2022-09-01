@@ -66,12 +66,12 @@ var video = `<div class="your-video mt-5 pt-4">
 
 
 window.addEventListener("DOMContentLoaded", () => {
-	const btn = document.querySelector(".download-btn");
+	const btn = $(".download-btn");
 	var doneTimeout = null,
 		resetTimeout = null;
 
 	if (btn) {
-		btn.addEventListener("click", function () {
+		btn.click(function () {
 			const runClass = "btn--running";
 			const doneClass = "btn--done";
 			// `.btn--running .btn__progress-fill` `stroke-dashoffset` duration in ms
