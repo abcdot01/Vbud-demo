@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Video-Downloader</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/89b1457043.js" crossorigin="anonymous"></script>
+  <!--  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Bootstrap Navbar  -->
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo-main.png" alt="" class="navbar-log-img">
+        <span class="ms-2">Video Buddy</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ms-2">
+            <a class="nav-link active navbar-link" aria-current="page" href="#"><svg width="20" height="20"
+                viewBox="0 0 28 28" fill="#fff">
+                <path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z" />
+              </svg><span class="ms-1">Home</span></a>
+          </li>
+          <!-- <li class="nav-item mx-2">
+            <a class="nav-link navbar-link" href="#">
+
+              <svg width="20" height="20" viewBox="0 0 28 28" fill="#ffffff8c">
+                <path
+                  d="M12 1c-6.338 0-12 4.226-12 10.007 0 2.05.739 4.063 2.047 5.625.055 1.83-1.023 4.456-1.993 6.368 2.602-.47 6.301-1.508 7.978-2.536 9.236 2.247 15.968-3.405 15.968-9.457 0-5.812-5.701-10.007-12-10.007zm1 15h-2v-6h2v6zm-1-7.75c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z" />
+              </svg>
+
+              <span class="ms-1">About</span></a>
+
+          </li> -->
+          <li class="nav-item mx-2">
+            <a class="nav-link navbar-link" href="pages/contact_us.html">
+
+             <span><i class="fa-solid fa-envelope"></i></span> 
+
+              <span class="ms-2">Contact US</span></a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End's -->
+
+  <div class="container-fluid px-3">
+    <div class="container">
+
+      <div class="search-form">
+
+        <h1 class="text-dark my-5 text-center"> Download Videos &amp; Music for Free</h1>
+
+        <form>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter URL" aria-label=""
+              aria-describedby="button-addon2">
+
+            <!--  -->
+            <div class="overflow-hidden">
+              <button class="download-btn" type="button">
+                <span class="btn__text"><i class="fa-solid fa-download me-1"></i> Download</span>
+
+
+                <svg class="btn__progress" viewBox="0 0 48 48" width="48px" height="48px">
+                  <circle class="btn__progress-track" r="20" cx="24" cy="24" fill="none" stroke="#c7cad1"
+                    stroke-width="8" />
+                  <circle class="btn__progress-fill" r="20" cx="24" cy="24" fill="none" stroke="#000000"
+                    stroke-width="8" transform="rotate(-90,24,24)" stroke-dasharray="125.66 125.66"
+                    stroke-dashoffset="125.66" />
+                  <polyline class="btn__progress-check" points="12,24 20,32 36,16" fill="none" stroke="#fff"
+                    stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="34 34"
+                    stroke-dashoffset="34" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Search Form End -->
+    </div>
+    <!-- Container End -->
+
+
+    <!-- Google ad -->
+    <div class="google_ad py-3">
+
+      <img src="img/ad-img.gif" alt="" class="google-ad-img">
+
+    </div>
+
+    <!-- Download Your Video -->
+    <div class="video">
+      
+    </div>
+
+    <!-- Faqs -->
+
+      <!-- Faq Sec -->
+      <section id="faq_sec" class="hk-landing-sec pb-25 mt-5">
+          <div class="container">
+              <h2 class="mb-10">FAQ</h2>
+              <div class="mt-50">
+                  <div class="row">
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">Can i download Facebook Videos?</h5>
+                          <p class="text-muted">Yes! You can download all sort of facebook video's unless the page
+                              has made it public.</p>
+                      </div>
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">Online Youtube MP3 Converter?</h5>
+                          <p class="text-muted">Our website supports converting YouTube video's to MP3 Format online,
+                              you can download all videos upto 4k.</p>
+                      </div>
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">My Video is not downloading?</h5>
+                          <p class="text-muted">Please send us a message with URL, and we will inspect it.</p>
+                      </div>
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">Which websites are supported?</h5>
+                          <p class="text-muted">You can visit supported websites section to learn more about this.
+                          </p>
+                      </div>
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">Can i use this on Mobile?</h5>
+                          <p class="text-muted">Yes, this is a mobile friendly website, you can open it on your
+                              mobile anytime.</p>
+                      </div>
+                      <div class="col-sm-6 mb-55">
+                          <h5 class="mb-15">Can i save history?</h5>
+                          <p class="text-muted">Such features are comming soon.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- /Faq Sec -->
+
+    <!--  -->
+
+  </div>
+
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card border-0">
+
+          <div class="card-body ">
+            <h5 class="mb-3 pt-2">Recent Updates</h5>
+            <div class="updates py-2 border-top lh-1">
+              <a href="#" class="text-decoration-none text-muted lh-sm f-size-12">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque maxime optio neque quae. Libero
+                minus ad praesentium delectus iusto unde.
+              </a>
+            </div>
+            <div class="updates py-2 border-top lh-1">
+              <a href="#" class="text-decoration-none text-muted lh-sm f-size-12">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque maxime optio neque quae. Libero
+                minus ad praesentium delectus iusto unde.
+              </a>
+            </div>
+            <div class="updates py-2 border-top lh-1">
+              <a href="#" class="text-decoration-none text-muted lh-sm f-size-12">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque maxime optio neque quae. Libero
+                minus ad praesentium delectus iusto unde.
+              </a>
+            </div>
+            <div class="updates py-2 border-top lh-1">
+              <a href="#" class="text-decoration-none text-muted lh-sm f-size-12">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Itaque maxime optio neque quae. Libero
+                minus ad praesentium delectus iusto unde.
+              </a>
+            </div>
+          </div>
+          <!-- card body end -->
+
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0">
+
+
+          <div class="card-body">
+
+            <h5 class="mb-3 py-2">Supported Sites</h5>
+
+
+            <div class="pb-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-youtube me-2 text-danger"></i></span> Youtube
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-facebook me-2 text-primary"></i></span> Facebook
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-soundcloud me-2" style="color: #f50;"></i></span> Sound Cloud
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-dailymotion me-2 text-dark"></i></span> Daily Motion
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-edge-legacy me-2 text-danger"></i></span> ESPN
+              </a>
+            </div>
+            <div class="py-2">
+              <a href="#" class="hover-dark text-decoration-none text-muted lh-sm fw-semibold">
+                <span><i class="fa-brands fa-vimeo me-2 text-info"></i></span> Vimeo
+              </a>
+            </div>
+
+          </div>
+          <!-- card body end -->
+
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0">
+
+
+          <div class="card-body">
+
+            <h5 class="mb-3 py-2">Recent Download</h5>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/officialkaka1/mitti-de-tibbe" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/recent.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Mitti De Tibbe by KAKA (03:55)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k views</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/officialkaka1/mitti-de-tibbe" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/recent.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Mitti De Tibbe by KAKA (03:55)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k views</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/officialkaka1/mitti-de-tibbe" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/recent.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Mitti De Tibbe by KAKA (03:55)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k views</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <!-- card body end -->
+
+        </div>
+        <!-- card end -->
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0">
+
+
+          <div class="card-body">
+
+            <h5 class="mb-3 py-2">Most Download</h5>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/daniyalwait4it/manike-mage-hithe-nari-man?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/most-download.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Manike mage Hithe (03:11)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k download</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/daniyalwait4it/manike-mage-hithe-nari-man?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/most-download.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Manike mage Hithe (03:11)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k download</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-body px-0 border-top">
+              <a href="https://soundcloud.com/daniyalwait4it/manike-mage-hithe-nari-man?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" class="text-decoration-none">
+                <div class="card overflow-hidden d-flex flex-row recent-song">
+                  <img src="img/most-download.jpg" alt="">
+                  <div class="ms-2 mt-2 pe-1">
+                    <p class="recent-video-title text-muted f-size-12 mb-1">Manike mage Hithe (03:11)</p>
+                    <p class="video-author text-muted f-size-12 mb-1">Stream Cloud</p>
+                    <p class="video-author text-muted f-size-10 mb-1"><span>3k download</span> <span class="ms-2">1 day ago</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            
+
+          </div>
+          <!-- card body end -->
+
+        </div>
+        <!-- card end -->
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="container-fluid p-3 d-flex justify-content-between align-items-center bg-light shadow">
+      <div class="text-muted f-size-12">
+      YouTube & Facebook Video Downloaders <a href="#" class="text-dark text-decoration-none">Video Buddy</a> © 2022
+    </div>
+
+    <div class="footer-link d-flex">
+      <span class="f-size-12 text-muted me-2">Share it on :</span>
+        <a href="#" class="text-decoration-none text-muted lh-sm fw-semibold border-end px-1">
+          <i class="fa-brands fa-youtube text-danger"></i>
+        </a>
+        <a href="#" class="text-decoration-none text-muted lh-sm fw-semibold border-end px-1">
+          <i class="fa-brands fa-twitter text-primary"></i>
+        </a>
+        <a href="#" class="text-decoration-none text-muted lh-sm fw-semibold px-1">
+          <i class="fa-brands fa-facebook text-primary"></i>
+        </a>
+    </div>
+    </div>
+    
+  </footer>
+
+  <!-- Bootstrap Script link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+
+  <!-- App js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
