@@ -43,6 +43,10 @@ body {
     font-size: 14px;
 }
 
+.mb-100 {
+    margin-bottom: 100px!important;
+}
+
 .mt-50 {
     margin-top: 50px!important;
 }
@@ -59,6 +63,10 @@ body {
     height: 48px;
     aspect-ratio: auto 48 / 48;
     width: 48px;
+}
+
+.nav-link{
+    font-size: 12px;
 }
 
 .form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
@@ -91,7 +99,6 @@ button:focus {
 .navbar-link {
     display: flex;
     align-items: center;
-    font-size: 14px;
 }
 
 .search-form {
@@ -274,4 +281,27 @@ video.embed-responsive-item {
 .recent-song img {
     width: 95px;
     aspect-ratio: 16/12;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion{
+    --bs-accordion-bg: #fff0;
+}
+
+.privacy-qa > p{
+    font-size: 14px;
+    color: #5e7d8a;
+}
+
+.tos-ul{
+}
+
+.tos-ul li{
+    font-size: 14px;
+    margin: 8px 0;
+    color: #5e7d8a;
+    list-style: disc!important;
 }
